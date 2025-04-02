@@ -12,7 +12,7 @@ class gato(Animal):
   def sonido(self):
     return "miau"
 
-hacer_sonido(animal: Animal):
+def hacer_sonido(animal: Animal):
      print(animal.sonido())
 
 perro=perro()
